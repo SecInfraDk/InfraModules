@@ -1,17 +1,28 @@
 # InfraModules
 
-## Purpose
+> ⚠️ **Work In Progress — Under Active Development**
 
-Publishes PowerShell modules reused across repositories.
+This repository is currently being restructured and migrated from an existing internal deployment framework.
 
-## Example contents
+Scripts, modules, configuration files, and documentation are being added and updated incrementally.
 
-IP2Mac, Mac2Ip, New-ISOFile, and New-Unattend.
+**Current status:**
+- Existing functionality is being reviewed and migrated.
+- Scripts and modules may change without notice.
+- Documentation is incomplete.
+- The repository is not yet intended for production use by third parties.
 
-## Scope
+Once the migration and validation are complete, this notice will be removed.
 
-Modules used only by one repository stay with that repository. Consumers select the module versions they require.
+## Project
 
-## Dependencies
+PowerShell-based infrastructure automation for Microsoft Infrastructure, developed as part of the SecInfraDK infrastructure deployment framework.
 
-Import a module by its manifest path or place its module directory on PSModulePath. Module functions declare their own runtime requirements.
+
+## License
+
+Copyright © 2026 SecInfraDK.
+
+This project is currently under development and has not yet been released under an open-source license.
+
+All rights reserved. A license may be added at a later stage.
